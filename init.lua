@@ -150,6 +150,11 @@ require('lazy').setup({
   'NMAC427/guess-indent.nvim', -- Detect tabstop and shiftwidth automatically
 
   'pocco81/auto-save.nvim', -- autosave
+  -- copyright updater
+  {
+    'LittleMorph/copyright-updater.nvim',
+    opts = {},
+  },
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
   -- keys can be used to configure plugin behavior/loading/etc.
